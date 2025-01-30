@@ -1,0 +1,8 @@
+flask
+flask-cors
+ultralytics
+keras-facenet
+opencv-python
+numpy
+pandas
+sqlite3

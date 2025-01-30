@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %}Home - Attendance System{% endblock %}
+
+{% block content %}
+<div class="text-center mt-5">
+    <h1 class="mb-4">Welcome to the Face Recognition Attendance System</h1>
+    <p class="lead">Manage students, track attendance, and view records easily.</p>
+    <a href="{{ url_for('add_student') }}" class="btn btn-primary btn-lg">Add New Student</a>
+    <a href="{{ url_for('mark_attendance_page') }}" class="btn btn-success btn-lg">Mark Attendance</a>
+    <a href="{{ url_for('attendance_history') }}" class="btn btn-info btn-lg">View Attendance</a>
+    <a href="{{ url_for('registered_students') }}" class="btn btn-warning btn-lg">Registered Students</a>
+</div>
+{% endblock %}
+
