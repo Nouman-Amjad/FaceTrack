@@ -42,7 +42,7 @@ pip install -r requirements.txt
 ```bash
 python app.py
 ```
-### **🌍 4️⃣ Access Web App**
+### **4️⃣ Access Web App**
 #### **📌 Local Access**
 Once the Flask server is running, open your browser and go to:
 ```bash
