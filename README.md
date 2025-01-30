@@ -42,14 +42,13 @@ pip install -r requirements.txt
 ```bash
 python app.py
 ```
-## 🌍 4️⃣ Access Web App
-
-### **📌 Local Access**
+### **🌍 4️⃣ Access Web App**
+#### **📌 Local Access**
 Once the Flask server is running, open your browser and go to:
 ```bash
 http://127.0.0.1:5000/
 ```
-### **📌 Access from Another Device (Same Network)**
+#### **📌 Access from Another Device (Same Network)**
 If you want to access the web app from a different device on the same network:
 ```bash
 http://YOUR_LOCAL_IP:5000/
